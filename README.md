@@ -1,1 +1,1 @@
-# AccidentalLikesPreventer
+# Accidental Likes Preventer
