@@ -1,0 +1,14 @@
+a.UFILikeLink, button.likeButton, button.FriendRequestAdd, ._5ymq, .ego_like, button.PageLikeButton, a.comment_link, a.share_action_link{
+	pointer-events: none;
+	-webkit-user-select: none;
+	opacity: .87;
+}
+
+/* if already liked */
+a[aria-pressed='true'].UFILikeLink{
+	pointer-events: all !important;
+}
+
+.enabled{
+	pointer-events: all !important;
+}

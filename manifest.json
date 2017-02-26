@@ -1,0 +1,24 @@
+{
+  "name": "Accidental Likes Preventer",
+  "version": "1.0.2",
+  "description": "__MSG_chrome_extension_description__",
+  "default_locale": "en",
+  "icons": {
+    "128": "img/icon128.png",
+    "256": "img/icon256.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
